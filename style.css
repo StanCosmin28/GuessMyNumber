@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
-
+@font-face {
+  font-family: myFont1;
+  src: url(./Array-Bold.otf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +15,7 @@ html {
 }
 
 body {
-  font-family: 'Press Start 2P', sans-serif;
+  font-family: myFont1;
   color: #eee;
   background-color: #222;
   /* background-color: #60b347; */
